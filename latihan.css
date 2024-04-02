@@ -1,0 +1,34 @@
+.animasi{
+    animation-name: text;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.tombol:hover .apple {
+    fill: white;
+    
+}
+.tombol:hover {
+    background-color: black;
+    color: white;
+}
+.tombol:hover .warna {
+    color: white;
+    border-color: white !important;
+}
+.tombol {
+    transition: all 200ms ease-in-out;
+    
+}
+.apple {
+    transition: fill 200ms ease-in-out;
+    
+}
+@keyframes text {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
